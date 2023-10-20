@@ -1,0 +1,180 @@
+﻿@*  @page "/getStudentByID/{id}"
+@using BlazorWebApi2.Models
+
+
+
+@inject HttpClient HttpClient
+
+
+
+<h3>Get Student By ID</h3>
+
+
+<h1>Particular Student Data </h1>
+
+<label for="studentId">Enter Student ID:</label>
+
+<input type="text" id="studentIdInput" placeholder="Enter Student ID">
+
+
+
+<button @onclick="FetchDataById">FetchDataById</button>
+
+
+
+
+
+@if (students != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student_ID</th>
+                <th>Gender</th>
+                <th>NationalITy</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.Student_ID</td>
+                    <td>@student.Gender</td>
+                    <td>@student.Nationlity</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+@code {
+    public IEnumerable<Student> students = null;
+
+
+
+    private async Task FetchDataById()
+    {
+        students = await HttpClient.GetFromJsonAsync<IEnumerable<Student>>("https://localhost:7214/api/Student/{id}");
+    }
+
+  
+}
+
+
+
+  *@
+
+
+
+@page "/getStudentByID"
+@using BlazorWebApi2.Models
+
+@inject HttpClient HttpClient
+
+
+
+<label for="studentId">Enter Student ID:</label>
+<input type="text" id="studentId" @bind="studentId" />
+<button @onclick="FetchStudentById">Fetch Student by ID</button>
+
+@if (students != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student_ID</th>
+                <th>Gender</th>
+                <th>Nationality</th>
+                <th>PlaceOfBirth</th>
+                <th>StageID</th>
+                <th>GradeID</th>
+                <th>SectionID</th>
+                <th>Topic</th>
+                <th>Semester</th>
+                <th>Relation</th>
+                <th>RaisedHands</th>
+                <th>VisitedResources</th>
+                <th>AnnouncementsView</th>
+                <th>Discussion</th>
+                <th>ParentAnsweringSurvey</th>
+                <th>ParentschoolSatisfaction</th>
+                <th>StudentAbsenceDays</th>
+                <th>StudentMarks</th>
+                <th>Classes</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.Student_ID</td>
+                    <td>@student.Gender</td>
+                    <td>@student.Nationlity</td>
+                    <td>@student.PlaceOfBirth</td>
+                    <td>@student.StageID</td>
+                    <td>@student.GradeID</td>
+                    <td>@student.SectionID</td>
+                    <td>@student.Topic</td>
+                    <td>@student.Semester</td>
+                    <td>@student.Relation</td>
+                    <td>@student.RaisedHands</td>
+                    <td>@student.VisitedResources</td>
+                    <td>@student.AnnouncementsView</td>
+                    <td>@student.Discussion</td>
+                    <td>@student.ParentAnsweringSurvey</td>
+                    <td>@student.ParentschoolSatisfaction</td>
+                    <td>@student.StudentAbsenceDays</td>
+                    <td>@student.StudentMarks</td>
+                    <td>@student.Classes</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (selectedStudent != null)
+{
+    <h4>Selected Student</h4>
+    <div>
+        <p>Student ID: @selectedStudent.Student_ID</p>
+        <p>Gender: @selectedStudent.Gender</p>
+        <p>Nationality: @selectedStudent.Nationlity</p>
+        <p>PlaceOfBirth: @selectedStudent.PlaceOfBirth</p>
+        <p>StageID: @selectedStudent.StageID</p>
+        <p>GradeID: @selectedStudent.GradeID</p>
+        <p>SectionID: @selectedStudent.SectionID</p>
+        <p>Topic: @selectedStudent.Topic</p>
+        <p>Semester: @selectedStudent.Semester</p>
+        <p>Relation: @selectedStudent.Relation</p>
+        <p>RaisedHands: @selectedStudent.RaisedHands</p>
+        <p>VisitedResources: @selectedStudent.VisitedResources</p>
+        <p>AnnouncementsView: @selectedStudent.AnnouncementsView</p>
+        <p>Discussion: @selectedStudent.Discussion</p>
+        <p>ParentAnsweringSurvey: @selectedStudent.ParentAnsweringSurvey</p>
+        <p>ParentschoolSatisfaction: @selectedStudent.ParentschoolSatisfaction</p>
+        <p>StudentAbsenceDays: @selectedStudent.StudentAbsenceDays</p>
+        <p>StudentMarks: @selectedStudent.StudentMarks</p>
+        <p>Classes: @selectedStudent.Classes</p>
+    </div>
+}
+
+@code {
+    public IEnumerable<Student> students = null;
+    public string studentId { get; set; }
+    public Student selectedStudent { get; set; }
+
+   
+
+    private async Task FetchStudentById()
+    {
+        if (!string.IsNullOrEmpty(studentId))
+        {
+            selectedStudent = await HttpClient.GetFromJsonAsync<Student>($"https://localhost:7214/api/Student/{studentId}");
+        }
+    }
+}

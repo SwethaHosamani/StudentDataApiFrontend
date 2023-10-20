@@ -1,0 +1,147 @@
+﻿@page "/addStudentData"
+@using BlazorWebApi2.Models
+@inject HttpClient HttpClient
+
+<h3>Add Student Data</h3>
+
+<form @onsubmit="PostStudent">
+    <div class="form-group">
+        <label for="studentId">Student ID:</label>
+        <input type="text" class="form-control" @bind="newStudent.Student_ID"  />
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input type="text" class="form-control" @bind="newStudent.Gender"  />
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="Nationlity">Nationlity</label>
+        <input type="text" name="Nationlity" class="form-control" id="Nationlity" @bind="newStudent.Nationlity"
+               placeholder="Enter Nationlity" />
+    </div>
+
+    <div class="form-group">
+        <label for="PlaceOfBirth">PlaceOfBirth</label>
+        <input type="text" name="PlaceOfBirth" class="form-control" id="PlaceOfBirth" @bind="newStudent.PlaceOfBirth"
+               placeholder="Enter PlaceOfBirth" />
+    </div>
+
+    <div class="form-group">
+        <label for="StageId">StageId</label>
+        <input type="text" name="StageId" class="form-control" id="StageId" @bind="newStudent.StageID" placeholder="Enter StageId" />
+    </div>
+    <div class="form-group">
+        <label for="GradeId">GradeId</label>
+        <input type="text" name="GradeId" class="form-control" id="GradeId" @bind="newStudent.GradeID" placeholder="Enter GradeId" />
+    </div>
+
+    <div class="form-group">
+        <label for="SectionId">SectionId</label>
+        <input type="text" name="SectionId" class="form-control" id="SectionId" @bind="newStudent.SectionID"
+               placeholder="Enter SectionId" />
+    </div>
+
+    <div class="form-group">
+        <label for="Topic">Topic</label>
+        <input type="text" name="Topic" class="form-control" id="Topic" @bind="newStudent.Topic" placeholder="Enter Topic" />
+    </div>
+    <div class="form-group">
+        <label for="Semester">Semester </label>
+        <input type="text" name="Semester" class="form-control" id="Semester" @bind="newStudent.Semester"
+               placeholder="Enter Semester" />
+    </div>
+
+    <div class="form-group">
+        <label for="Relation">Relation</label>
+        <input type="text" name="Relation" class="form-control" id="Relation" @bind="newStudent.Relation"
+               placeholder="Enter Relation" />
+    </div>
+
+    <div class="form-group">
+        <label for="RaisedHands">RaisedHands</label>
+        <input type="text" name="RaisedHands" class="form-control" id="RaisedHands" @bind="newStudent.RaisedHands"
+               placeholder="Enter RaisedHands" />
+    </div>
+
+    <div class="form-group">
+        <label for="VisitedResources">VisitedResources</label>
+        <input type="text" name="VisitedResources" class="form-control" id="VisitedResources" @bind="newStudent.VisitedResources"
+               placeholder="Enter VisitedResources" />
+    </div>
+
+    <div class="form-group">
+        <label for="AnnouncementsView">AnnouncementsView</label>
+        <input type="text" name="AnnouncementsView" class="form-control" id="AnnouncementsView" @bind="newStudent.AnnouncementsView"
+               placeholder="Enter AnnouncementsView" />
+    </div>
+
+    <div class="form-group">
+        <label for="Discussion ">Discussion</label>
+        <input type="text" name="Discussion" class="form-control" id="Discussion" @bind="newStudent.Discussion"
+               placeholder="Enter Discussion" />
+    </div>
+
+    <div class="form-group">
+        <label for="ParentAnsweringSurvey">ParentAnsweringSurvey</label>
+        <input type="text" name="ParentAnsweringSurvey" class="form-control" id="ParentAnsweringSurvey" @bind="newStudent.ParentAnsweringSurvey"
+               placeholder="Enter ParentAnsweringSurvey" />
+    </div>
+
+    <div class="form-group">
+        <label for="ParentschoolSatisfaction">ParentschoolSatisfaction</label>
+        <input type="text" name="ParentschoolSatisfaction" class="form-control"
+               id="ParentschoolSatisfaction" @bind="newStudent.ParentschoolSatisfaction" placeholder="Enter ParentschoolSatisfaction" />
+    </div>
+
+    <div class="form-group">
+        <label for="StudentAbsenceDays ">StudentAbsenceDays </label>
+        <input type="text" name="StudentAbsenceDays" class="form-control" id="StudentAbsenceDays" @bind="newStudent.StudentAbsenceDays"
+               placeholder="Enter StudentAbsenceDays" />
+    </div>
+
+    <div class="form-group">
+        <label for="StudentMarks ">StudentMarks </label>
+        <input type="text" name="StudentMarks" class="form-control" id="StudentMarks" @bind="newStudent.StudentMarks"
+               placeholder="Enter StudentMarks" />
+    </div>
+    <div class="form-group">
+        <label for="Classes">Classes</label>
+        <input type="text" name="Classes" class="form-control" id="Classes" @bind="newStudent.Classes" placeholder="Enter Classes" />
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if (!string.IsNullOrEmpty(postMessage))
+{
+    <div class="alert alert-success mt-3">@postMessage</div>
+}
+
+@code {
+    public Student newStudent { get; set; } = new Student();
+
+
+
+    // Initialize a new student object
+    public string postMessage { get; set; }
+
+   
+
+    private async Task PostStudent()
+    {
+        var response = await HttpClient.PostAsJsonAsync("https://localhost:7214/api/Student", newStudent);
+
+        if (response.IsSuccessStatusCode)
+        {
+            postMessage = "Student data posted successfully.";
+        }
+        else
+        {
+            postMessage = "Error posting student data. Status Code: " + response.StatusCode;
+        }
+    }
+}

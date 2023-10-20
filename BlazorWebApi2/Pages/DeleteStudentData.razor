@@ -1,0 +1,35 @@
+﻿@page "/deleteStudentData"
+@using BlazorWebApi2.Models
+
+@inject HttpClient HttpClient
+
+<label for="studentId">Enter Student ID:</label>
+<input type="text" id="studentId" @bind="studentId" />
+<button @onclick="DeleteStudent">Delete Student</button>
+
+
+
+@code {
+
+    public string studentId { get; set; }
+    public string deletionMessage { get; set; }
+
+    private async Task DeleteStudent()
+    {
+        if (!string.IsNullOrEmpty(studentId))
+        {
+            var response = await HttpClient.DeleteAsync($"https://localhost:7214/api/Student/{studentId}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+
+                deletionMessage = $"Student with ID {studentId} was deleted successfully.";
+                Console.WriteLine(deletionMessage);
+            }
+            else
+            {
+                deletionMessage = $"Error occurred while deleting student with ID {studentId}.";
+            }
+        }
+    }
+}
