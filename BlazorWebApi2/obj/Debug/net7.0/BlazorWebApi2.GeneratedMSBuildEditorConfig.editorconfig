@@ -24,16 +24,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/DeleteStudentData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlU3R1ZGVudERhdGEucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/GetStudentByID.razor]
@@ -46,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/UpdateStudentData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlU3R1ZGVudERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Shared/SurveyPrompt.razor]
