@@ -7,6 +7,8 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.Toast.dll": "sha256-6wGoA8FmxkQCTFIXEM+U+Y2kJJnSTJXRYwuByAUPWGU=",
+      "MatBlazor.dll": "sha256-xqyEeOYvD9bIUOuChPPw7izVmDW0OKzUOqUNQgZmbek=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-8f3B2YKtr38X\/o9azir1JiTTvPB3b+xEcluEyMAk1iE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-4ILNFgB643G5ZkreiD24BGeHIeuV3whK+n6lzWroM3s=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-pMIawRgV4NJefI\/7ZXCbth0OgQLXSJtmcv+bSXL\/bKU=",
@@ -27,8 +29,8 @@
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-7mzUlhcvGxpAVO4h\/Tka7P\/8IXF9ZsHkGt0fp5aufkU=",
       "Microsoft.Extensions.Options.dll": "sha256-gcHJrSv1wTqvF9SyWTEKcbiShn4mkgfnm9+tRQr4OqY=",
       "Microsoft.Extensions.Primitives.dll": "sha256-q4ruoDSCjV\/QJY9ZkzV6uxvEvZUVrDbyUjU3SSh5SlE=",
-      "Microsoft.JSInterop.dll": "sha256-kASAE+8NzefI7+Xifd2BiK+J9Ex95Owvsrw3Sh03Lok=",
-      "Microsoft.JSInterop.WebAssembly.dll": "sha256-x9wUJSTizwabTgkZJEi0od\/mBSZHJhE6xvh8F45kNsk=",
+      "Microsoft.JSInterop.dll": "sha256-4w31cVs8ZqmiTjPhXLdOP9nJt6goHkYVV9L8Nz+27\/g=",
+      "Microsoft.JSInterop.WebAssembly.dll": "sha256-4xrroXQy8wvhJmgbErz8Uld\/3YoAZEjglOS6GfJz+JQ=",
       "System.IO.Pipelines.dll": "sha256-P\/MqD0fCBd5bgTM16JC1QC\/Zz7s+CwViyzmDFkBG4\/c=",
       "Microsoft.CSharp.dll": "sha256-BUiVGe6p6jUmOK8r05pxkju2yOY+W440Yo1+skPhq9s=",
       "Microsoft.VisualBasic.Core.dll": "sha256-vKIUs2cWQIUo8dpQTCzbxP67FlfRjXtAwpjc4v\/5i50=",
@@ -198,13 +200,13 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "BlazorWebApi2.dll": "sha256-\/pwP1ptE9uRXk\/ggjWKSqmRzqEbMN\/NKDaiL5IEwgI0="
+      "BlazorWebApi2.dll": "sha256-R\/aaM7fuh2B4aB6\/KbhNeQr1TKiBvEdwe\/3Fm8rZoLQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorWebApi2.pdb": "sha256-0VKvMQ4ZVVVJky3PP915ZS4mHrJupq75n9GFlVsgLDM="
+      "BlazorWebApi2.pdb": "sha256-URVeWlzc41HZt0JjcptPs8mzS9GEYLyVJZw+fNRCSV8="
     },
     "runtime": {
       "dotnet.7.0.12.f0src0w7sa.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",

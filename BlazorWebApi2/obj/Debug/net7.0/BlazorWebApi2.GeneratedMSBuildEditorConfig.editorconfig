@@ -24,8 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/DatabaseTruncation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YWJhc2VUcnVuY2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/DataRecovery.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVJlY292ZXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/DeleteStudentData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlU3R1ZGVudERhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/DownloadExcel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG93bmxvYWRFeGNlbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/GetStudentByID.razor]
@@ -38,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/SoftDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29mdERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/StudentDataImport.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudERhdGFJbXBvcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/UpdateStudentData.razor]

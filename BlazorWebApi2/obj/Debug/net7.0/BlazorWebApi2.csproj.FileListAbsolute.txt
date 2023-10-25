@@ -628,8 +628,6 @@ C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-g
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\2YJ+7KUz.gz
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\BG5vP7Dt.gz
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\W+bt3lN1.gz
-C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\9Mx+H8D8.gz
-C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\ZPXk2BAG.gz
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\2Gx7Go+q.gz
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\LOS5oAVf.gz
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\VBwsLATF.gz
@@ -826,3 +824,13 @@ C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\BlazorW
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\refint\BlazorWebApi2.dll
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\BlazorWebApi2.pdb
 C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\ref\BlazorWebApi2.dll
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\bin\Debug\net7.0\wwwroot\_framework\Blazored.Toast.dll
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\bin\Debug\net7.0\wwwroot\_framework\Blazored.Toast.dll.gz
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\bin\Debug\net7.0\Blazored.Toast.dll
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\RdxZAIru.gz
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\bin\Debug\net7.0\wwwroot\_framework\MatBlazor.dll
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\bin\Debug\net7.0\wwwroot\_framework\MatBlazor.dll.gz
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\bin\Debug\net7.0\MatBlazor.dll
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\wIcg+4fK.gz
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\KGGPGltu.gz
+C:\Users\Admin\source\repos\BlazorWebApi2\BlazorWebApi2\obj\Debug\net7.0\build-gz\30sPYn8b.gz

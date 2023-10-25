@@ -40,6 +40,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -48,6 +56,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.JSInterop.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.13, )"
             }
           },
           "imports": [

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FzsLZ1ioCmJeyzjB9ucl2dBS7h5uL+BdPs1K2LXchoWgEmKB500Swu3yC6GZn+cSpyiKqdNuU+mDnvrjLwfndA==",
+  "dgSpecHash": "Jxh1hIJ1LdmEKticg2cKjLCuur9MGqC+X7NRWhyswb18QpWKdBpVnPqCbGX0HsScSdd5WOsjjETPbAYjnaokyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\BlazorWebApi2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.1.0\\blazored.toast.4.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\matblazor.2.10.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.12\\microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.12\\microsoft.aspnetcore.components.7.0.12.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.12\\microsoft.aspnetcore.components.analyzers.7.0.12.nupkg.sha512",
@@ -26,8 +28,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop\\7.0.12\\microsoft.jsinterop.7.0.12.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.12\\microsoft.jsinterop.webassembly.7.0.12.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop\\7.0.13\\microsoft.jsinterop.7.0.13.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.13\\microsoft.jsinterop.webassembly.7.0.13.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",

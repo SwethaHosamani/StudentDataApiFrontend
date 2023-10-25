@@ -2,6 +2,49 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Blazored.Toast/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "7.0.1",
+          "Microsoft.AspNetCore.Components.Web": "7.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Blazored.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Blazored.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Toast.props": {}
+        }
+      },
+      "MatBlazor/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.14",
+          "Microsoft.AspNetCore.Components.Web": "6.0.14"
+        },
+        "compile": {
+          "lib/net6.0/MatBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MatBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/MatBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MatBlazor.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.12": {
         "type": "package",
         "dependencies": {
@@ -390,7 +433,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/7.0.12": {
+      "Microsoft.JSInterop/7.0.13": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.dll": {
@@ -403,10 +446,10 @@
           }
         }
       },
-      "Microsoft.JSInterop.WebAssembly/7.0.12": {
+      "Microsoft.JSInterop.WebAssembly/7.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.JSInterop": "7.0.12"
+          "Microsoft.JSInterop": "7.0.13"
         },
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll": {
@@ -478,6 +521,49 @@
       }
     },
     "net7.0/browser-wasm": {
+      "Blazored.Toast/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "7.0.1",
+          "Microsoft.AspNetCore.Components.Web": "7.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Blazored.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Blazored.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Toast.props": {}
+        }
+      },
+      "MatBlazor/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.14",
+          "Microsoft.AspNetCore.Components.Web": "6.0.14"
+        },
+        "compile": {
+          "lib/net6.0/MatBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MatBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/MatBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MatBlazor.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.12": {
         "type": "package",
         "dependencies": {
@@ -866,7 +952,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/7.0.12": {
+      "Microsoft.JSInterop/7.0.13": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.dll": {
@@ -879,10 +965,10 @@
           }
         }
       },
-      "Microsoft.JSInterop.WebAssembly/7.0.12": {
+      "Microsoft.JSInterop.WebAssembly/7.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.JSInterop": "7.0.12"
+          "Microsoft.JSInterop": "7.0.13"
         },
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll": {
@@ -949,6 +1035,44 @@
     }
   },
   "libraries": {
+    "Blazored.Toast/4.1.0": {
+      "sha512": "k12tFBnMMU67bPoBKLTuR2POcYOz02UtT8Lzyeu8fMv587nO8VaWqFfRMJ8Hxkb1SbxL8lY2WiK9tWAZ934khQ==",
+      "type": "package",
+      "path": "blazored.toast/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.toast.4.1.0.nupkg.sha512",
+        "blazored.toast.nuspec",
+        "build/Blazored.Toast.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazored.Toast.props",
+        "buildTransitive/Blazored.Toast.props",
+        "icon.png",
+        "lib/net6.0/Blazored.Toast.dll",
+        "lib/net7.0/Blazored.Toast.dll",
+        "staticwebassets/Blazored.Toast.bundle.scp.css"
+      ]
+    },
+    "MatBlazor/2.10.0": {
+      "sha512": "VyxrSrtNxsj4XmFu5QI5CcBGGRMcFXfYmVGrTwuMhRkT052qXQii4c0lSgUMgTo4Ii11dMw/xr1wjosh3mA7LA==",
+      "type": "package",
+      "path": "matblazor/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MatBlazor.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/MatBlazor.props",
+        "buildTransitive/MatBlazor.props",
+        "lib/net6.0/MatBlazor.dll",
+        "lib/net6.0/MatBlazor.xml",
+        "matblazor.2.10.0.nupkg.sha512",
+        "matblazor.nuspec",
+        "staticwebassets/dist/matBlazor.css",
+        "staticwebassets/dist/matBlazor.js"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.12": {
       "sha512": "z++ru5sKWIuYXhrrlIAOfRqeLtULY6RvjHLKVF5AP7zMmc/VK3WmQAbyno7VVqVojVtL5WDJ4z/+n5W8zMweqw==",
       "type": "package",
@@ -1634,10 +1758,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/7.0.12": {
-      "sha512": "AJYoootrG2G5ugU+2oXfGVbb6nh8oams4vTznZQIwJEibaCyKi5Q/9oQuLFG5CWjGllTZeO4Baj3H5EORWnwpw==",
+    "Microsoft.JSInterop/7.0.13": {
+      "sha512": "h+6J4rDJborkPb6O2Akoa+0khTTIsuYGo3NpTASglgE7ihBxkyE9FiHJAo1KmHJwh35ubosHpZ4iDc93lEwcHQ==",
       "type": "package",
-      "path": "microsoft.jsinterop/7.0.12",
+      "path": "microsoft.jsinterop/7.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1645,14 +1769,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.JSInterop.dll",
         "lib/net7.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.7.0.12.nupkg.sha512",
+        "microsoft.jsinterop.7.0.13.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
-    "Microsoft.JSInterop.WebAssembly/7.0.12": {
-      "sha512": "LuWUnUiZj51smVDZx7x4XQrUZ37LGbpmiUT43oif0Jm/bQMvjF9iyw3Sk3bUfCSnOaql9Ut710BQ6S7fKyBRrA==",
+    "Microsoft.JSInterop.WebAssembly/7.0.13": {
+      "sha512": "rJ5KqQyOAbR5E8W1BpNqSinSJrT04cxRpGLRsP+kt3OKV1p2QuTAB24nztU55LQZx5+CRT88Q+olpUN+cUHPsg==",
       "type": "package",
-      "path": "microsoft.jsinterop.webassembly/7.0.12",
+      "path": "microsoft.jsinterop.webassembly/7.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1660,7 +1784,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll",
         "lib/net7.0/Microsoft.JSInterop.WebAssembly.xml",
-        "microsoft.jsinterop.webassembly.7.0.12.nupkg.sha512",
+        "microsoft.jsinterop.webassembly.7.0.13.nupkg.sha512",
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
@@ -1796,8 +1920,12 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Blazored.Toast >= 4.1.0",
+      "MatBlazor >= 2.10.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.12",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.12"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.12",
+      "Microsoft.JSInterop >= 7.0.13",
+      "Microsoft.JSInterop.WebAssembly >= 7.0.13"
     ]
   },
   "packageFolders": {
@@ -1839,6 +1967,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Blazored.Toast": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
+          "MatBlazor": {
+            "target": "Package",
+            "version": "[2.10.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[7.0.12, )"
@@ -1847,6 +1983,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.12, )"
+          },
+          "Microsoft.JSInterop": {
+            "target": "Package",
+            "version": "[7.0.13, )"
+          },
+          "Microsoft.JSInterop.WebAssembly": {
+            "target": "Package",
+            "version": "[7.0.13, )"
           }
         },
         "imports": [

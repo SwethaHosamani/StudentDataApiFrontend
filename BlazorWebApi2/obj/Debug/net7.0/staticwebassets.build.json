@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sEt9frgzHmNmJK3i7m+JHny63Zr9dzx2vfTdVyDNA2o=",
+  "Hash": "En4w7kIa1vD6EdJUm95qs9dtEBbUtaQCQGv+xyyTrn0=",
   "Source": "BlazorWebApi2",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,57 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.css",
+      "SourceId": "MatBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\",
+      "BasePath": "_content/MatBlazor",
+      "RelativePath": "dist/matBlazor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.js",
+      "SourceId": "MatBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\",
+      "BasePath": "_content/MatBlazor",
+      "RelativePath": "dist/matBlazor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.js"
+    },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "BlazorWebApi2",
@@ -49,6 +100,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.12\\build\\net7.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Toast.dll",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.1.0\\lib\\net7.0\\Blazored.Toast.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorWebApi2.dll",
@@ -202,6 +270,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.12\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MatBlazor.dll",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MatBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\matblazor\\2.10.0\\lib\\net6.0\\MatBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -575,7 +660,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop\\7.0.12\\lib\\net7.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop\\7.0.13\\lib\\net7.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -592,7 +677,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.12\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.13\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -3706,6 +3791,23 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\30sPYn8b.gz",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\32lY31t9.gz",
       "SourceId": "BlazorWebApi2",
       "SourceType": "Computed",
@@ -4061,23 +4163,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.ThreadPool.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\9Mx+H8D8.gz",
-      "SourceId": "BlazorWebApi2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\aeErf5G7.gz",
@@ -5202,6 +5287,23 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Principal.Windows.dll"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\KGGPGltu.gz",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\kGk6hi6a.gz",
       "SourceId": "BlazorWebApi2",
       "SourceType": "Computed",
@@ -5642,6 +5744,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Sockets.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\RdxZAIru.gz",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Toast.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Toast.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\riCGi+15.gz",
@@ -6324,6 +6443,23 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.dll"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\wIcg+4fK.gz",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MatBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MatBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MatBlazor.dll"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\wiWxLfeD.gz",
       "SourceId": "BlazorWebApi2",
       "SourceType": "Computed",
@@ -6849,23 +6985,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Security.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\build-gz\\ZPXk2BAG.gz",
-      "SourceId": "BlazorWebApi2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorWebApi2.styles.css",

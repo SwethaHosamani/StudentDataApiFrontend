@@ -1,0 +1,41 @@
+﻿@page "/softdelete"
+@inject HttpClient httpClient
+
+<h3>Delete Student</h3>
+
+<p>Enter the Student ID you want to delete:</p>
+
+<input type="text" @bind="studentId" />
+<button class="btn btn-danger" @onclick="DeleteStudentAsync">Delete</button>
+
+@if (isDeleted)
+{
+    <p>Student with ID @deletedStudentId has been deleted.</p>
+}
+else
+{
+}
+
+@code {
+
+    private string studentId;
+    private bool isDeleted = false;
+    private string deletedStudentId = "";
+
+    private async Task DeleteStudentAsync()
+   
+    {
+    var response = await httpClient.DeleteAsync($" https://localhost:7214/api/SoftDeleteContoller/Delete/{studentId}");
+        if (response.IsSuccessStatusCode)
+        {
+            isDeleted = true;
+            deletedStudentId = studentId;
+        }
+        else
+        {
+            deletedStudentId = "Doesn't Exists Or ";
+        }
+    }
+}
+
+

@@ -170,7 +170,8 @@
 
 @if (isStudentIdValid)
 {
-    <form @onsubmit="UpdateStudent">
+    <EditForm Model="@updatedStudent" OnValidSubmit="UpdateStudent">
+        <DataAnnotationsValidator />
         <div class="form-group">
             <label for="studentId">Student ID:</label>
             <input type="text" class="form-control" id="studentId" @bind="updatedStudent.Student_ID" placeholder="Enter Student_ID" />
@@ -178,6 +179,7 @@
         <div class="form-group">
     <label for="gender">Gender:</label>
     <input type="text" class="form-control" @bind="updatedStudent.Gender" placeholder="Enter Gender" />
+            <ValidationMessage For="@(() => updatedStudent.Gender)" />
 </div>
 
 
@@ -186,99 +188,116 @@
     <label for="Nationlity">Nationlity</label>
     <input type="text" name="Nationlity" class="form-control" id="Nationlity" @bind="updatedStudent.Nationlity"
            placeholder="Enter Nationlity" />
+            <ValidationMessage For="@(() => updatedStudent.Nationlity)" />
 </div>
 
 <div class="form-group">
     <label for="PlaceOfBirth">PlaceOfBirth</label>
     <input type="text" name="PlaceOfBirth" class="form-control" id="PlaceOfBirth" @bind="updatedStudent.PlaceOfBirth"
            placeholder="Enter PlaceOfBirth" />
+            <ValidationMessage For="@(() => updatedStudent.PlaceOfBirth)" />
 </div>
 
 <div class="form-group">
     <label for="StageId">StageId</label>
     <input type="text" name="StageId" class="form-control" id="StageId" @bind="updatedStudent.StageID" placeholder="Enter StageId" />
+            <ValidationMessage For="@(() => updatedStudent.StageID)" />
 </div>
 <div class="form-group">
     <label for="GradeId">GradeId</label>
     <input type="text" name="GradeId" class="form-control" id="GradeId" @bind="updatedStudent.GradeID" placeholder="Enter GradeId" />
+            <ValidationMessage For="@(() => updatedStudent.GradeID)" />
 </div>
 
 <div class="form-group">
     <label for="SectionId">SectionId</label>
     <input type="text" name="SectionId" class="form-control" id="SectionId" @bind="updatedStudent.SectionID"
            placeholder="Enter SectionId" />
-</div>
+            <ValidationMessage For="@(() => updatedStudent.SectionID)" />
+                </div>
 
 <div class="form-group">
     <label for="Topic">Topic</label>
     <input type="text" name="Topic" class="form-control" id="Topic" @bind="updatedStudent.Topic" placeholder="Enter Topic" />
+            <ValidationMessage For="@(() => updatedStudent.Topic)" />
 </div>
 <div class="form-group">
     <label for="Semester">Semester </label>
     <input type="text" name="Semester" class="form-control" id="Semester" @bind="updatedStudent.Semester"
            placeholder="Enter Semester" />
+            <ValidationMessage For="@(() => updatedStudent.Semester)" />
 </div>
 
 <div class="form-group">
     <label for="Relation">Relation</label>
     <input type="text" name="Relation" class="form-control" id="Relation" @bind="updatedStudent.Relation"
            placeholder="Enter Relation" />
+            <ValidationMessage For="@(() => updatedStudent.Relation)" />
 </div>
 
 <div class="form-group">
     <label for="RaisedHands">RaisedHands</label>
     <input type="text" name="RaisedHands" class="form-control" id="RaisedHands" @bind="updatedStudent.RaisedHands"
            placeholder="Enter RaisedHands" />
+            <ValidationMessage For="@(() => updatedStudent.RaisedHands)" />
 </div>
 
 <div class="form-group">
     <label for="VisitedResources">VisitedResources</label>
     <input type="text" name="VisitedResources" class="form-control" id="VisitedResources" @bind="updatedStudent.VisitedResources"
            placeholder="Enter VisitedResources" />
+            <ValidationMessage For="@(() => updatedStudent.VisitedResources)" />
 </div>
 
 <div class="form-group">
     <label for="AnnouncementsView">AnnouncementsView</label>
     <input type="text" name="AnnouncementsView" class="form-control" id="AnnouncementsView" @bind="updatedStudent.AnnouncementsView"
            placeholder="Enter AnnouncementsView" />
+            <ValidationMessage For="@(() => updatedStudent.AnnouncementsView)" />
 </div>
 
 <div class="form-group">
     <label for="Discussion ">Discussion</label>
     <input type="text" name="Discussion" class="form-control" id="Discussion" @bind="updatedStudent.Discussion"
            placeholder="Enter Discussion" />
+            <ValidationMessage For="@(() => updatedStudent.Discussion)" />
 </div>
 
 <div class="form-group">
     <label for="ParentAnsweringSurvey">ParentAnsweringSurvey</label>
     <input type="text" name="ParentAnsweringSurvey" class="form-control" id="ParentAnsweringSurvey" @bind="updatedStudent.ParentAnsweringSurvey"
            placeholder="Enter ParentAnsweringSurvey" />
+            <ValidationMessage For="@(() => updatedStudent.ParentAnsweringSurvey)" />
 </div>
 
 <div class="form-group">
     <label for="ParentschoolSatisfaction">ParentschoolSatisfaction</label>
     <input type="text" name="ParentschoolSatisfaction" class="form-control"
            id="ParentschoolSatisfaction" @bind="updatedStudent.ParentschoolSatisfaction" placeholder="Enter ParentschoolSatisfaction" />
+            <ValidationMessage For="@(() => updatedStudent.ParentschoolSatisfaction)" />
 </div>
 
 <div class="form-group">
     <label for="StudentAbsenceDays ">StudentAbsenceDays </label>
     <input type="text" name="StudentAbsenceDays" class="form-control" id="StudentAbsenceDays" @bind="updatedStudent.StudentAbsenceDays"
            placeholder="Enter StudentAbsenceDays" />
+            <ValidationMessage For="@(() => updatedStudent.StudentAbsenceDays)" />
 </div>
 
 <div class="form-group">
     <label for="StudentMarks ">StudentMarks </label>
     <input type="text" name="StudentMarks" class="form-control" id="StudentMarks" @bind="updatedStudent.StudentMarks"
            placeholder="Enter StudentMarks" />
+            <ValidationMessage For="@(() => updatedStudent.StudentMarks)" />
 </div>
 <div class="form-group">
     <label for="Classes">Classes</label>
     <input type="text" name="Classes" class="form-control" id="Classes" @bind="updatedStudent.Classes" placeholder="Enter Classes" />
+            <ValidationMessage For="@(() => updatedStudent.Classes)" />
 </div>
 
         <button type="submit" class="btn btn-primary">Update</button>
-    </form>
+    </EditForm>
 }
 else if (showErrorMessage)
 {

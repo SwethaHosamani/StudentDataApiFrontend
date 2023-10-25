@@ -10,6 +10,7 @@
     <link href="css/app.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="BlazorWebApi2.styles.css" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -27,6 +28,22 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Blazored.Toast/scripts/blazored-toast.js"></script>
+    <script>
+        function downloadFile(fileName, content, contentType) {
+            var blob = new Blob([content], { type: contentType });
+            var url = window.URL.createObjectURL(blob);
+            var a = document.createElement("a");
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+        }
+    </script>
+
+
+
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+using Blazored.Toast;
 using BlazorWebApi2;
 using BlazorWebApi2.Models;
 using Microsoft.AspNetCore.Components.Web;
@@ -12,7 +13,8 @@ namespace BlazorWebApi2
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
             builder.RootComponents.Add<HeadOutlet>("head::after");
-
+            builder.Services.AddBlazoredToast();
+            
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddScoped<Student>();
             await builder.Build().RunAsync();
