@@ -1,0 +1,11 @@
+﻿.centered-h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+body.index-background {
+    background-image: url('../images/Student.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Make sure the background covers the entire viewport */
+}

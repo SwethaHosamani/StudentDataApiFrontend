@@ -338,7 +338,7 @@ else if (showErrorMessage)
     {
         try
         {
-            var response = await HttpClient.PutAsJsonAsync($"https://localhost:7214/api/Student/{updatedStudent.Student_ID}", updatedStudent);
+            var response = await HttpClient.PutAsJsonAsync($"https://localhost:7214/api/Student/updateStudentData/{updatedStudent.Student_ID}", updatedStudent);
 
             if (response.IsSuccessStatusCode)
             {
@@ -362,6 +362,7 @@ else if (showErrorMessage)
     {
         try
         {
+        
             var response = await HttpClient.GetAsync($"https://localhost:7214/api/Student/{studentId}");
 
             if (response.IsSuccessStatusCode)

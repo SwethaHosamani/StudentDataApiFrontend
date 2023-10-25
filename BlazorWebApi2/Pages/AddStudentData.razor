@@ -8,12 +8,12 @@
     <DataAnnotationsValidator />
     <div class="form-group">
         <label for="studentId">Student ID:</label>
-        <input type="text" class="form-control" @bind="newStudent.Student_ID"  />
+        <input type="text" class="form-control" @bind="newStudent.Student_ID" placeholder="Enter StudentId" />
         <ValidationMessage For="@(() => newStudent.Student_ID)" />
     </div>
     <div class="form-group">
         <label for="gender">Gender:</label>
-        <input type="text" class="form-control" @bind="newStudent.Gender"  />
+        <input type="text" class="form-control" @bind="newStudent.Gender" placeholder="Enter Gender" />
         <ValidationMessage For="@(() => newStudent.Gender)" />
     </div>
 
@@ -146,7 +146,7 @@
 
 @code {
     public Student newStudent { get; set; } = new Student();
-
+    
 
 
     // Initialize a new student object

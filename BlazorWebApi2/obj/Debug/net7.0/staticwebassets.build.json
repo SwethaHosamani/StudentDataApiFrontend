@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "En4w7kIa1vD6EdJUm95qs9dtEBbUtaQCQGv+xyyTrn0=",
+  "Hash": "5pMdSnZKPM9xQY3Vavho9ubHX6IwByT22R5Nu6lOSTY=",
   "Source": "BlazorWebApi2",
   "BasePath": "/",
   "Mode": "Root",
@@ -7072,6 +7072,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\css\\custom.css",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorWebApi2",
       "SourceType": "Discovered",
@@ -7225,6 +7242,23 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\css\\styles.css",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\favicon.png",
       "SourceId": "BlazorWebApi2",
       "SourceType": "Discovered",
@@ -7257,6 +7291,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\images\\Student.jpg",
+      "SourceId": "BlazorWebApi2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/Student.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Student.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\index.html",

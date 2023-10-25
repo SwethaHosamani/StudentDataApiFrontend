@@ -11,7 +11,7 @@
 
 
 
-<button @onclick="FetchData">Fetch Data</button>
+<button class="btn btn-primary custom-fetch-button" @onclick="FetchData">Fetch Data</button>
 
 
 
@@ -86,6 +86,11 @@
         students = await HttpClient.GetFromJsonAsync<IEnumerable<Student>>("https://localhost:7214/api/Student");
     }
 }
+
+
+
+
+
 
 
 

@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/Modals/CustomModal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kYWxzXEN1c3RvbU1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/SoftDelete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29mdERlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,10 +66,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Pages/UpdateStudentData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlU3R1ZGVudERhdGEucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/BlazorWebApi2/BlazorWebApi2/_Imports.razor]

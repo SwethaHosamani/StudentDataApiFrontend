@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
@@ -61,12 +65,20 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\images\\Student.jpg",
+      "PackagePath": "staticwebassets\\images\\Student.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\BlazorWebApi2\\BlazorWebApi2\\wwwroot\\index.html",

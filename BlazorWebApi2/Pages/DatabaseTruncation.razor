@@ -1,4 +1,7 @@
-﻿@page "/databaseTruncate"
+﻿
+
+
+@* @page "/databaseTruncate"
 @using Blazored.Toast.Configuration;
 @using Blazored.Toast.Services;
 @inject HttpClient httpClient
@@ -38,4 +41,72 @@
 
     }
 
+
+
+
+} *@
+
+@page "/databaseTruncate"
+@using System.Net.Http
+@inject IJSRuntime JSRuntime
+@inject HttpClient httpClient
+
+
+<h3>Truncate Database</h3>
+
+<p>This will delete all records from the database. Are you sure you want to proceed?</p>
+
+<button class="btn btn-danger" @onclick="ShowTruncateConfirmationModal">Truncate Database</button>
+
+@if (isDeleted)
+{
+    <p>@deletedStudentId</p>
 }
+
+<BlazorWebApi2.Pages.Modals.CustomModal @bind-IsVisible="isModalVisible" Title="Truncate Confirmation">
+    <div>
+        Are you sure you want to truncate the database?
+    </div>
+    <button class="btn btn-danger" @onclick="TruncateDatabaseAsync">Yes</button>
+    <button class="btn btn-primary" @onclick="CloseTruncateConfirmationModal">No</button>
+</BlazorWebApi2.Pages.Modals.CustomModal>
+
+@code {
+    private bool isDeleted = false;
+    private string deletedStudentId = "";
+    private bool isModalVisible = false;
+
+    private async Task ShowTruncateConfirmationModal()
+    {
+        isModalVisible = true;
+    }
+
+    private async Task CloseTruncateConfirmationModal()
+    {
+        isModalVisible = false;
+    }
+
+    private async Task TruncateDatabaseAsync()
+    {
+        var response = await httpClient.DeleteAsync("https://localhost:7214/api/Student/truncate");
+
+        if (response.IsSuccessStatusCode)
+        {
+            isDeleted = true;
+            deletedStudentId = "All records have been Deleted";
+            // Display a simple JavaScript alert
+            await JSRuntime.InvokeVoidAsync("alert", "Database truncated successfully.");
+        }
+        else
+        {
+            isDeleted = false;
+            deletedStudentId = "Error!";
+            // Display a simple JavaScript alert
+            await JSRuntime.InvokeVoidAsync("alert", "Error truncating database.");
+        }
+        isModalVisible = false;
+    }
+}
+
+
+

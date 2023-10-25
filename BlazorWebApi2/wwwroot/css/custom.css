@@ -1,0 +1,41 @@
+﻿
+.btn-danger {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+    .btn-danger:hover {
+        background-color: darkred;
+        border-color: darkred;
+    }
+
+.custom-fetch-button {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+    .custom-fetch-button:hover {
+        background-color: darkblue;
+        border-color: darkblue;
+    }
+
+
+.custom-fetchbyid-button {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+.custom-fetchbyid-button {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
